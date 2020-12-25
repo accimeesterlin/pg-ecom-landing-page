@@ -19,8 +19,8 @@ TABLE OF CONTENTS
     • Overview
     • Features
     • How to Steps
-    • Testimonials
-    • Pricing
+    • about-uss
+    • courses
     • FAQ
     • Footer
         
@@ -521,9 +521,9 @@ header {
 }
 
 /* ==========================================================================
-   TESTIMONIAL
+   about-us
    ========================================================================== */
-.testimonial {
+.about-us {
   position: relative;
   background: url(../images/bg-image3.png) no-repeat right bottom;
   padding: 178px 0;
@@ -532,13 +532,13 @@ header {
 }
 
 @media (max-width: 1400px) {
-  .testimonial {
+  .about-us {
     padding: 157px 0;
   }
 }
 
 @media (max-width: 992px) {
-  .testimonial {
+  .about-us {
     padding: 0;
   }
 }
@@ -669,7 +669,7 @@ header {
 
 @media (max-width: 992px) {
   .add-btn {
-    margin: 15px 0 0 0;
+    margin: 15px 0 0 25px;
   }
 }
 
@@ -749,20 +749,20 @@ header {
 }
 
 /* ==========================================================================
-   PRICING
+   courses
    ========================================================================== */
-.pricing {
+.courses {
   position: relative;
   padding: 0 0 90px;
 }
 
 @media (max-width: 992px) {
-  .pricing {
+  .courses {
     padding: 25px 0;
   }
 }
 
-.pricing-bg {
+.courses-bg {
   position: absolute;
   width: 100%;
   top: 0;
@@ -773,27 +773,27 @@ header {
 }
 
 @media (max-width: 768px) {
-  .pricing-bg {
+  .courses-bg {
     display: none;
   }
 }
 
-.pricing-bg img {
+.courses-bg img {
   width: 100%;
 }
 
-.pricing-wrap {
+.courses-wrap {
   display: flex;
   flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
-  .pricing-wrap {
+  .courses-wrap {
     margin: 30px 0 0;
   }
 }
 
-.pricing-element {
+.courses-element {
   margin: 0px;
 }
 
@@ -802,7 +802,7 @@ header {
 Copyright © All rights Reserved
 Surjith S M / @surjithctly
 */
-.pricing-block {
+.courses-block {
   background: #fff;
   text-align: center;
   width: 100%;
@@ -812,23 +812,23 @@ Surjith S M / @surjithctly
 }
 
 @media (max-width: 992px) {
-  .pricing-block {
+  .courses-block {
     padding: 33px 13px;
   }
 }
 
-.pricing-block img {
+.courses-block img {
   width: 100%;
   margin-bottom: 25px;
 }
 
-.pricing-block h6 {
+.courses-block h6 {
   font-size: 15px;
   letter-spacing: 2px;
 }
 
 @media (max-width: 992px) {
-  .pricing-block p {
+  .courses-block p {
     font-size: 13px;
   }
 }
@@ -841,19 +841,19 @@ Surjith S M / @surjithctly
   font-size: 13px;
 }
 
-.pricing-high {
+.courses-high {
   text-align: center;
   background: #fff;
   padding: 36px 50px;
 }
 
-.pricing-high h6 {
+.courses-high h6 {
   margin: 30px 0 10px;
   font-size: 22px;
   font-weight: 600;
 }
 
-.pricing-icon {
+.courses-icon {
   padding: 26px 0;
   border-radius: 50%;
   width: 100px;
@@ -861,13 +861,13 @@ Surjith S M / @surjithctly
   display: inline-block;
 }
 
-.pricing-icon h2 {
+.courses-icon h2 {
   font-size: 45px;
   opacity: 0.2;
   margin: 0;
 }
 
-.pricing-icon h2 span {
+.courses-icon h2 span {
   font-size: 22px;
   vertical-align: top;
   margin: 8px 0 0;
@@ -875,11 +875,11 @@ Surjith S M / @surjithctly
   display: inline-block;
 }
 
-.pricing-text {
+.courses-text {
   text-align: left;
 }
 
-.pricing-text i {
+.courses-text i {
   display: inline-block;
   margin: 0 8px 0 0;
   background: #daffd3;
@@ -889,15 +889,16 @@ Surjith S M / @surjithctly
   font-size: 12px;
 }
 
-.pricing-text p {
+.courses-text p {
   display: inline-block;
 }
 
-.pricing-btn_wrap {
+.courses-btn_wrap {
   float: none;
+  margin-bottom: 20px;
 }
 
-.pricing-block_middle {
+.courses-block_middle {
   position: relative;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -909,7 +910,7 @@ Surjith S M / @surjithctly
 }
 
 @media (max-width: 768px) {
-  .pricing-block_middle {
+  .courses-block_middle {
     margin: 25px 0;
     -webkit-transform: none;
     -ms-transform: none;
@@ -917,23 +918,23 @@ Surjith S M / @surjithctly
   }
 }
 
-.pricing-block_middle h2 {
+.courses-block_middle h2 {
   color: #fff;
   opacity: 1;
 }
 
-.pricing-bottom_text {
+.courses-bottom_text {
   text-align: center;
   margin: 55px 0 0;
 }
 
 @media (max-width: 992px) {
-  .pricing-bottom_text {
+  .courses-bottom_text {
     margin: 25px 0 0;
   }
 }
 
-.pricing-bottom_text p {
+.courses-bottom_text p {
   color: #bbbdc6;
 }
 
@@ -961,7 +962,7 @@ Surjith S M / @surjithctly
   }
 }
 
-.pricing-bg02 {
+.courses-bg02 {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -969,14 +970,14 @@ Surjith S M / @surjithctly
 }
 
 @media (max-width: 1200px) {
-  .pricing-bg02 {
+  .courses-bg02 {
     bottom: 42%;
     width: 45%;
   }
 }
 
 @media (max-width: 1200px) {
-  .pricing-bg02 {
+  .courses-bg02 {
     display: none;
   }
 }
@@ -1179,7 +1180,7 @@ footer {
   transform: rotateY(180deg);
 }
 
-.pricing-bg_secong {
+.courses-bg_secong {
   position: absolute;
   width: 100%;
   top: -14%;
