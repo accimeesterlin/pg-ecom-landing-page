@@ -526,7 +526,7 @@ header {
 .about-us {
   position: relative;
   background: url(../images/bg-image3.png) no-repeat right bottom;
-  padding: 178px 0;
+  padding: 210px 0;
   z-index: -2;
   background-size: contain;
 }
@@ -552,7 +552,7 @@ header {
   .testi-img_wrap {
     position: absolute;
     bottom: 0;
-    right: 5;
+    right: 5px;
     max-width: 60%;
   }
 }
@@ -574,7 +574,7 @@ header {
 .testi-content_block {
   width: 80%;
   z-index: 10;
-  text-align:left;
+  text-align: left;
 }
 
 @media (max-width: 1025px) {
