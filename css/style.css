@@ -644,6 +644,18 @@ header {
   }
 }
 
+.ea-training {
+  padding: 10px;
+}
+
+.past-speaking-engagement {
+  text-align: left;
+}
+
+.past-speaking-engagement > p {
+  margin-left: 10px;
+}
+
 .add-content {
   display: inline-block;
   vertical-align: middle;
