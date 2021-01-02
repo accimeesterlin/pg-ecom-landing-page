@@ -543,6 +543,12 @@ header {
   }
 }
 
+@media (min-width: 1025px) {
+  .about-us-page {
+    padding: 200px 0px;
+  }
+}
+
 .testi-img_wrap {
   width: 100%;
   text-align: right;
