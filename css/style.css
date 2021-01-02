@@ -1,37 +1,4 @@
 @charset "UTF-8";
-
-/*!
-
-Style   : FinCorp CSS
-Version : 1.0
-Author  : Surjith S M
-URI     : http://themeforest.net/user/surjithctly
-
-Copyright © All rights Reserved
-Surjith S M / @surjithctly
-
-
-TABLE OF CONTENTS
-------------------------------
-
-    • Global Styles
-    • Header
-    • Overview
-    • Features
-    • How to Steps
-    • about-uss
-    • courses
-    • FAQ
-    • Footer
-        
----------------------------------------------------
-Note:  If possible, Please edit the SASS Files and
-        use a compiling tool to generate this css.
----------------------------------------------------
-*/
-/* ==========================================================================
-   Global Styles
-   ========================================================================== */
 body {
   font-family: CircularStd;
 }
@@ -817,10 +784,6 @@ header {
 
 
 
-/*
-Copyright © All rights Reserved
-Surjith S M / @surjithctly
-*/
 .courses-block {
   background: #fff;
   text-align: center;
