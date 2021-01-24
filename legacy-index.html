@@ -1,0 +1,900 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PG-ecom - E-learning platform for Haitians</title>
+    <link rel="shortcut icon" type="image/png" href="./images/pg-logo.png"/>
+    <link rel="icon" type="image/png" href="./images/pg-logo.png"/>
+
+    <!-- OpenGraph SEO meta tags -->
+    <meta content="E-learning platform for Haitians" name="description">
+    <meta content="pg-ecom, haiti, e-learning, ecommerce, shopify, woocommerce, facebook & google ads, traning, courses, amazon" name="keywords">
+    <!-- <meta content="images/banner.jpg" property="og:image"> -->
+    <meta content="PG-ecom has trained over 1,200 people in how to launch and manage successful online businesses" property="og:title">
+    <meta content="website" property="og:type">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font awesome CSS -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- Circular-std CSS -->
+    <link rel="stylesheet" href="./css/circular-std.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header>
+        <!-- Navbar -->
+        <div class="nav-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="./"><img src="images/pg-logo.png" alt="PG-ecom Logo"></a>
+                            <button class="navbar-toggler navbar-toggler_second" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-bars"></i>
+                                <!--  <span class="navbar-toggler-icon"></span> -->
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <!-- <li class="nav-item">
+                                        <a class="nav-link" href="tel:+16785048981" tabindex="-1" aria-disabled="true">+1 678 504-8981</a>
+                                    </li> -->
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="./" tabindex="-1" aria-disabled="true">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/courses" tabindex="-1" aria-disabled="true">Courses</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/faqs" tabindex="-1" aria-disabled="true">FAQs</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/about" tabindex="-1" aria-disabled="true">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a
+                                          class="nav-link"
+                                          href="https://sso.teachable.com/secure/583714/users/sign_up?reset_purchase_session=1"
+                                          tabindex="-1"
+                                          aria-disabled="true"
+                                          >Sign Up</a
+                                        >
+                                      </li>
+                                      <li class="nav-item">
+                                        <a
+                                          class="nav-link"
+                                          href="https://sso.teachable.com/secure/583714/users/sign_in?reset_purchase_session=1"
+                                          tabindex="-1"
+                                          aria-disabled="true"
+                                          >Login</a
+                                        >
+                                      </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Title -->
+        <div class="main-title__alt header__bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="hero-title  text-center  text-md-left">
+                            <h1>Take your business<br>
+                                online.</h1>
+                            <div class="add-btn courses-btn_wrap">
+                                <a href="https://courses.pgecom.com/" class="btn btn-primary">Courses</a>
+                                <!-- <a href="https://bit.ly/pg-checkout" data-toggle="modal" data-target="#contactmodal" class="btn btn-primary">Start now</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="main-banner_md">
+                            <img src="images/online_shopping.svg" class="img-fluid" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-style d-none d-md-block">
+                <img src="images/bg-1.png" class="img-fluid" alt="#">
+            </div>
+        </div>
+        <!--// Main Title -->
+        <!--// Navbar -->
+
+
+        <!--  Contact Modal -->
+        <div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="phpcontactform"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-zoom" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+
+                        <form class="quote-form" action="php/contact.php" method="post" id="phpcontactform">
+                            <h5 class="text-center mt-3 mb-4">Start the course now!</h5>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-sm-6"> <input type="text" class="form-control" id="first_name" name="first_name"
+                                            placeholder="First Name*" required> </div>
+                                    <div class="col-sm-6"> <input type="text" class="form-control" id="last_name" name="last_name"
+                                            placeholder="Last Name*" required> </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address*"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone*"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="pac-input" name="address" placeholder="Address*"
+                                    required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100" id="js-contact-btn"><strong>
+                                    Start the course now!
+                                </strong> </button>
+                            <div id="js-contact-result" data-success-msg="Success, We will get back to you soon"
+                                data-error-msg="Oops! Something went wrong"></div>
+
+                        </form>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--  // Contact Modal -->
+
+        <!--==================== NEW INSURANCE ====================-->
+        <div class="space bg-image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center-title">
+                            <h2>E-commerce</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-7 ml-auto">
+                        <div class="insurance-title_wrap insurance-title_wrap2">
+                            <p class="insurance-para">2020 was the year that projected e-commerce into our everyday lives.
+                                More and more people are shopping and buying online.
+                                In the U.S. alone, e-commerce sales are projected to hit more than $700 billion in 2020,
+                                and global e-commerce sales are expected to reach $4.2 trillion according to Shopify.
+                            </p>
+                            <p>Now is the time to start your online business. </p>
+                            <div class="insurance-type d-flex align-items-center">
+                                <img src="images/tick.png" alt="Check mark">
+                                <div class="insurance-type_title">
+                                    <h6>It’s more than just having a nice website</h6>
+                                    <p>Your website and strategy needs to cut through the noise, get noticed and attract customers.</p>
+                                </div>
+                            </div>
+                            <div class="insurance-type d-flex align-items-center">
+                                <img src="images/tick.png" alt="Check mark">
+                                <div class="insurance-type_title">
+                                    <h6>Finding the right supplier</h6>
+                                    <p>You might have a great idea and an endless source of website traffic,
+                                        but if your manufacturer can’t keep up with demand, or if the quality of the product
+                                        they are producing is subpar, you won’t be in business long.
+                                    </p>
+                                    <p>Targeting the right customer on the right device at the right moment can be challenging -
+                                        it all comes down to your advertising and marketing strategy.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="insurance-type d-flex align-items-center">
+                                <img src="images/tick.png" alt="Check mark">
+                                <div class="insurance-type_title">
+                                    <h6>Target the right audience</h6>
+                                    <p>Target the right person on the right device at the right moment can be challenging</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-img-3">
+                <img src="./images/teamwork.svg" width="680" class="img-fluid" alt="#">
+            </div>
+            <div class="bg-style2">
+                <img src="images/bg-2.png" class="img-fluid" alt="#">
+            </div>
+        </div>
+        <!--//END NEW INSURANCE -->
+    </header>
+    <!--//END HEADER -->
+    <!--==================== Courses ====================-->
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="center-title">
+                        <h2>Courses</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row courses-wrap">
+                <div class="col-md-6">
+                    <div class="row courses-element">
+                        <div class="courses-block">
+                            <img src="images/ds-banner.png" alt="">
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Launch and manage a successful e-commerce business</p>
+                            </div>
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Maintain your e-commerce website</p>
+                            </div>
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Attract the right customers with the right strategy</p>
+                            </div>
+                            <div class="add-btn courses-btn_wrap">
+                                <a href="https://bit.ly/pg-checkout" class="btn btn-primary">Start now</a>
+                                <a href="https://esterling-accime-s-school.teachable.com/p/dropshipping-masterclass" class="btn btn-primary">View curriculum</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row courses-element">
+                        <div class="courses-block">
+                            <img src="images/shopify-logo.png" alt="">
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Earn money by building Shopify stores for clients</p>
+                            </div>
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Join a community of Shopify Partners</p>
+                            </div>
+                            
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Learn the ins and outs of managing a successful Shopify store</p>
+                            </div>
+                            <div class="add-btn courses-btn_wrap">
+                                <a href="https://sso.teachable.com/secure/583714/checkout/2783432/shopify-partner" class="btn btn-primary">Start now</a>
+                                <a href="https://courses.pgecom.com/p/shopify-partner" class="btn btn-primary">View Curriculum</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row courses-element">
+                        <div class="courses-block">
+                            <img src="images/Facebook Ads.png" alt="">
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Launch a Facebook Ads Campaign</p>
+                            </div>
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Analyze Facebook Ads Data</p>
+                            </div>
+                            
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Learn how to do retargeting</p>
+                            </div>
+                            <div class="add-btn courses-btn_wrap">
+                                <a href="https://courses.pgecom.com/p/facebook-ads" class="btn btn-primary">Start now</a>
+                                <a href="https://sso.teachable.com/secure/583714/checkout/2810126/facebook-ads" class="btn btn-primary">View Curriculum</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row courses-element">
+                        <div class="courses-block">
+                            <img src="images/mini-dropshipping.png" alt="">
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Understand Dropshipping Business Model</p>
+                            </div>
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Finding trending products</p>
+                            </div>
+                            
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Find hot products on Facebook</p>
+                            </div>
+                            <div class="add-btn courses-btn_wrap">
+                                <a href="https://courses.pgecom.com/p/mini-dropshipping" class="btn btn-primary">Start now</a>
+                                <a href="https://courses.pgecom.com/p/mini-dropshipping" class="btn btn-primary">View Curriculum</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row courses-element">
+                        <div class="courses-block">
+                            <img src="images/shopify_and_cj_dropshipping.png" alt="">
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Start a business or grow an existing one with Shopify</p>
+                            </div>
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Source & fulfill with high quality products and faster shipping</p>
+                            </div>
+                            
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Sell trending products with no inventory</p>
+                            </div>
+                            <div class="add-btn courses-btn_wrap">
+                                <a href="https://courses.pgecom.com/p/shopify-cj-dropshipping" class="btn btn-primary">Pre-Order</a>
+                                <a href="https://courses.pgecom.com/p/shopify-cj-dropshipping" class="btn btn-primary">View Curriculum</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row courses-element">
+                        <div class="courses-block">
+                            <img src="images/shopify.png" alt="">
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Start a business or grow an existing one with Shopify</p>
+                            </div>
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Turn your retail store into an online store</p>
+                            </div>
+                            
+                            <div class="courses-text">
+                                <i class="fas fa-check"></i>
+                                <p>Bring your business to Shopify</p>
+                            </div>
+                            <div class="add-btn courses-btn_wrap">
+                                <a href="https://sso.teachable.com/secure/583714/checkout/2810972/shopify" class="btn btn-primary">Start now</a>
+                                <a href="https://courses.pgecom.com/p/shopify" class="btn btn-primary">View Curriculum</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="courses-bg courses-bg_secong">
+            <img src="images/bg-image4.png" class="img-fluid" alt="#">
+        </div>
+    </section>
+    <!--//END Courses -->
+
+    <!--==================== Satisfaction Guarantee ====================-->
+    <section class="add-section clearfix">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="add-box">
+                        <img src="images/shield-yellow.svg" class="img-fluid shield" alt="#">
+                        <div class="add-content">
+                            <h3> 100% Satisfaction Guarantee</h3>
+                            <p>We offer a no questions asked refund policy for 7 days from the purchase date</p>
+                        </div>
+                        <div class="add-btn">
+                            <a href="https://courses.pgecom.com/" class="btn btn-primary">Courses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//END ADD -->
+
+    <!--==================== Steps to launching your online business ====================-->
+    <section class="space bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="center-title">
+                        <h2>Steps to launching your online business</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="item-box">
+                        <div class="item-icon color1">
+                            <img src="images/tshirt-solid.svg" class="img-fluid" alt="#">
+                        </div>
+                        <h6>Find a high-potential product</h6>
+                        <p>Find something that has a large global demand, high margins and can be easily warehoused and fulfilled.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="item-box">
+                        <div class="item-icon color1">
+                            <img src="images/warehouse-solid.svg" class="img-fluid" alt="#">
+                        </div>
+                        <h6>Lock down a manufacturer</h6>
+                        <p>You need a manufacturer who can keep up with demand and creates a quality product.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="item-box">
+                        <div class="item-icon color2">
+                            <img src="images/social-media.svg" class="img-fluid" alt="#">
+                        </div>
+                        <h6>Choose a brand name and secure your online presence</h6>
+                        <p>Your brand name needs to be not only memorable and appealing to your target audience,
+                            but it also needs to be available in the form of a domain name and social media handles.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="item-box">
+                        <div class="item-icon color3">
+                            <img src="images/laptop-solid.svg" class="img-fluid" alt="#">
+                        </div>
+                        <h6>Develop your website</h6>
+                        <p>Shopify is a great choice for those who don’t have the technical know-how or budget to create a custom website.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="item-box">
+                        <div class="item-icon color4">
+                            <img src="images/lightbulb-regular.svg" class="img-fluid" alt="#">
+                        </div>
+                        <h6>Create a marketing plan</h6>
+                        <p>You have a product and a website, now you need to put your offering
+                            in front of consumers who are likely to be interested in the product.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="item-box">
+                        <div class="item-icon color5">
+                            <img src="images/store-solid.svg" class="img-fluid" alt="#">
+                        </div>
+                        <h6>Launch your online store</h6>
+                        <p>Do not wait until you think it’s perfect to launch.
+                            You will need to continually split-test and make changes -- your e-commerce business
+                            will always be growing and evolving.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of steps -->
+     <!--==================== Start your online business ====================-->
+     <section class="add-section clearfix collapse-wrap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="add-box">
+                        <img src="./images/shield-green.svg" class="img-fluid shield" alt="#">
+                        <div class="add-content">
+                            <h3> Start your online business</h3>
+                            <p>PG-ecom is here to teach you the ins and outs of a successful e-commerce business. </p>
+                        </div>
+                        <div class="add-btn">
+                            <a href="https://courses.pgecom.com/" class="btn btn-primary">Courses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//END ADD -->
+
+    <!--==================== Who we are ====================-->
+    <section class="add-section space bg-light"  id="about-us">
+        <div class="space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center-title">
+                            <h2>Who we are</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>Protege Global Ecommerce (PG-ecom) has trained over 1,200 people in how to launch
+                        and manage successful online businesses. Courses are currently offered in Haitian
+                        Creole to help Haitians learn how to make money online. Course offerings will be expanded to English soon.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--// END of Who we are -->
+
+    <!--==================== EASY Simplied Process ====================-->
+    <!-- <section class="space">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="center-title">
+                        <h2>Simplified Process</h2>
+                        <p>Easy as One, Two, Three</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="item-box howit-block">
+                        <div class="item-icon color1">
+                            <span>1</span>
+                        </div>
+                        <h6>Pick a course</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nunc vitae velit rutrum
+                            suscipit non et eros.</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="item-box howit-block_af">
+                        <div class="item-icon color2">
+                            <span>2</span>
+                        </div>
+                        <h6>Start learning</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nunc vitae velit rutrum
+                            suscipit non et eros.</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="item-box">
+                        <div class="item-icon color3">
+                            <span>3</span>
+                        </div>
+                        <h6>Launch your business</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis nunc vitae velit rutrum
+                            suscipit non et eros.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--// END EASY CLAIMS -->
+    <!--==================== About ====================-->
+    <section class="about-us">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-12 col-lg-7 align-items-center">
+                    <div class="testi-content_block">
+                        <img src="images/quote.png" class="img-fluid" alt="#">
+                        <h3>Esterling Accime is a software engineer, educator and
+                            entrepreneur with a wealth of knowledge 
+                            in digital retailing and e-commerce.</h3>
+                        <span>Esterling Accime</span>
+                        <p>PG-ecom Founder, United States</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testi-img_wrap">
+            <img src="images/accime_profile.png" class="img-fluid" alt="#" width="650">
+        </div>
+       
+    </section>
+    <section class="add-section content-wrap">
+        <div class="container">
+            <div class="row d-flex">
+                <p class="about-bio">Esterling founded Protege Global E-commerce (PG-ecom), a skills training organization
+                    that creates content and courses around e-commerce. Courses are provided in Haitian Creole
+                     to help Haitians launch, create and manage successful online businesses.
+                     Esterling is also co-founder of <a href="https://ecombrandbuilder.com/">Ecom Builder</a> that helps customers start
+                     their e-commerce business with the right high-conversion creative and assets.
+                </p>
+                <p class="about-bio">Growing up in Haiti, Esterling has a passion for bringing technology to the country.
+                    He believes the future of Haiti’s technology landscape is promising if those with the experience
+                    and knowledge democratize access. To help connect Haitians with other technology professionals,
+                    Esterling co-founded <a href="http://tichaiti.dev/">tichaiti</a> to collectively create solutions that uplift Haiti and the Haitian people.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--//END about-us -->
+
+     <!--==================== Training SECTION ====================-->
+     <section class="add-section content-wrap">
+         <div class="space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center-title">
+                            <h2>Training</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-20">
+                    <p>Esterling Accime is an experienced speaker and teacher.
+                        He was an instructor at the Georgia Tech Coding Boot Camp where he taught full stack web development.
+                        He has also spoken at conferences about how to start and manage a successful e-commerce business.
+                    </p>
+                    <div class="ea-training">
+                        <p>Esterling can speak to your group or organization about the following:</p> <br>
+                        <div class="courses-text">
+                            <i class="fas fa-check"></i>
+                            <p>Facebook advertising for small businesses</p>
+                        </div>
+                        <div class="courses-text">
+                            <i class="fas fa-check"></i>
+                            <p>Tools for successful online businesses</p>
+                        </div>
+                        <div class="courses-text">
+                            <i class="fas fa-check"></i>
+                            <p>Shopify</p>
+                        </div>
+                        <div class="courses-text">
+                            <i class="fas fa-check"></i>
+                            <p>WooCommerce</p>
+                        </div>
+                        <div class="courses-text">
+                            <i class="fas fa-check"></i>
+                            <p>Dropshipping</p>
+                        </div>
+                        <p>Send a message to <a href="mailto:info@pgecom.com">info@pgecom.com</a> for information, scheduling and pricing.</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+        
+    </section>
+
+    <!--==================== Past Speaking and Training ====================-->
+    <section class="add-section clearfix collaps-wrap">
+        <div class="space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center-title">
+                            <h2>Past Speaking & Training</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="past-speaking-engagement insurance-title_wrap insurance-title_wrap2">
+                        <p class="insurance-para">Esterling has been a speaker at the following conferences and events: </p>
+                        <div class="insurance-type d-flex align-items-center">
+                            <img src="images/tick.png" alt="Check mark">
+                            <div class="insurance-type_title">
+                                <h6>Haiti Tourism Innovation Summit</h6>
+                                <p><a href="https://www.tourisminnovationsummit.com/">Tourism Innovation Summit</a>, a community of Tourism leaders with a clear vision and plan to impact the tourism industry
+                                     in the Caribbean Region, especially Haiti.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="insurance-type d-flex align-items-center">
+                            <img src="images/tick.png" alt="Check mark">
+                            <div class="insurance-type_title">
+                                <h6>Trilogy Annual Conference</h6>
+                                <p><a href="https://www.trilogyed.com/">Trilogy Education</a> is a Workforce Accelerator. They partner with the best universities in the world
+                                    to create and manage skills-based training programs. Together, they’re training today’s workers
+                                    with tomorrow’s skills to help companies bridge the digital skills gap.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="insurance-type d-flex align-items-center">
+                            <img src="images/tick.png" alt="Check mark">
+                            <div class="insurance-type_title">
+                                <h6>Startup Grind</h6>
+                                <p><a href="https://www.startupgrind.com/jeremie/">Startup Grind</a> is a global startup community designed to educate inspire and connect more entrepreneurs.</p>
+                            </div>
+                        </div>
+    
+                        <div class="insurance-type d-flex align-items-center">
+                            <img src="images/tick.png" alt="Check mark">
+                            <div class="insurance-type_title">
+                                <h6>Caribbean Ecommerce Workshop in the Dominican Republic</h6>
+                                <p>Walk in without a business, walk out with a business.
+                                    The <a href="https://youtu.be/IVR-Pp5Ns7M">2020 workshop</a> has concluded and was a success. Stay tuned for 2021 dates.
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="insurance-type d-flex align-items-center">
+                            <img src="images/tick.png" alt="Check mark">
+                            <div class="insurance-type_title">
+                                <h6>Haiti Coding Workshop</h6>
+                                <p>Learn the fundamentals of full-stack development in two days.
+                                    Receive the tools and support to continue to learn and expand your skills beyond the workshop.
+                                    The <a href="https://www.trilogyed.com/blog/bringing-learning-home-how-one-coding-grad-is-making-a-difference-in-haiti/">2018 workshop</a> concluded and was a success. Stay tuned for future dates.
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="insurance-type d-flex align-items-center">
+                            <img src="images/tick.png" alt="Check mark">
+                            <div class="insurance-type_title">
+                                <h6>Render ATL (2021)</h6>
+                                <p><a href="https://www.renderatl.com/">RenderATL</a> is the first major React conference in the Southern United States.
+                                    Conceived by a team of passionate React engineers who're looking to help drive.
+                                </p>
+                            </div>
+                        </div>
+                    
+                        <div class="insurance-type d-flex align-items-center">
+                            <img src="images/tick.png" alt="Check mark">
+                            <div class="insurance-type_title">
+                                <h6>React ATL</h6>
+                                <p><a href="https://www.meetup.com/en-AU/React-ATL/">React ATL</a> is a monthly developer meetup to discuss trends and tools coming out of the ReactJS ecosystem.
+                            </div>
+                        </div>
+    
+                        <div class="insurance-type d-flex align-items-center">
+                            <img src="images/tick.png" alt="Check mark">
+                            <div class="insurance-type_title">
+                                <h6>Georgia Tech events and meetups</h6>
+                                <p> <a href="https://www.meetup.com/Tech-Full-Stack-Web-Developers/">Full Stack Developers</a> (alumni of Georgia Tech Coding Boot Camp Program) working to continue
+                                    their networking activities and establish connection.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- End of Past Speaking and Training -->
+
+    <!--==================== ADD ====================-->
+    <section class="add-section clearfix collapse-wrap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="add-box">
+                        <img src="images/shield-green.svg" class="img-fluid shield" alt="Check mark">
+                        <div class="add-content">
+                            <h3> Book Esterling Accime now</h3>
+                            <p>Software engineer, educator and entrepreneur with a wealth of knowledge in digital retailing and e-commerce.</p>
+                        </div>
+                        <div class="add-btn">
+                            <a href="https://calendly.com/accimeesterlin/speaking" class="btn btn-primary">Book now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//END ADD -->
+    
+    
+    <!--==================== FAQS SECTION ====================-->
+    <section class="content-wrap" id="faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="center-title">
+                        <h2>FAQs</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content-box content-box1">
+                        <h5>Can I watch the lessons on my phone?</h5>
+                        <p>Yes you can watch it on your phone. Navigate via the class url, and login to the assigned courses</p>
+                    </div>
+                    <div class="content-box">
+                        <h5>How is the material available online?</h5>
+                        <p>Online classes are delivered using a learning management system, called Teachable.
+                            Students log into Teachable and can select their course sites.
+                            Once a student is in their course site, they can access lectures,
+                            PowerPoint, assignments, readings, documents, videos, links, comments, etc
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content-box content-box1">
+                        <h5>Are online classes self-paced or scheduled?</h5>
+                        <p>The programs are self-paced or independent study.</p>
+                    </div>
+                    <div class="content-box">
+                        <h5>Can I go on vacation while taking an online class?</h5>
+                        <p>Online courses require weekly logins and weekly assignment submissions.
+                            Students must ensure they are able to meet the course requirements throughout 
+                            the duration of the semester.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//END FAQS SECTION -->
+    
+    <!--==================== FOOTER ====================-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-title">
+                        <h6>ADDRESS</h6>
+                        <p>PO BOX 767398, Roswell, GA 30076<br>
+                            <a href="tel:+1 (678) 504 8981">+1 (678) 504 8981</a><br>
+                            <a href="mailto:info@pgecom.com">info@pgecom.com</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-title">
+                        <h6>FOLLOW US</h6>
+                        <ul>
+                            <li><a href="https://www.facebook.com/pgecom">Facebook</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCkg2EsiO2FASY3ZBlPIcI-g">YouTube</a></li>
+                            <li><a href="https://twitter.com/pgecommerce">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/pgecom/">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="footer-title">
+                        <h6>POLICIES</h6>
+                        <ul>
+                            <li><a href="./refund-policy">Refund Policy</a></li>
+                            <li><a href="./terms-policy">Terms of Service</a></li>
+                            <li><a href="./privacy-policy">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-title">
+                        <h6>ABOUT US</h6>
+                        <p>Protege Global Ecommerce (PG-ecom) has trained over 1,200 people in how to launch and manage successful online businesses.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">
+                        <p>Copyright © 2021. Protege Global Ecommerce, INC</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--//END FOOTER -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Contact js -->
+    <script src="js/validate.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9147866.js"></script>
+    <!-- End of HubSpot Embed Code -->
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9147866.js"></script>
+    <!-- End of HubSpot Embed Code -->
+    <!-- Global site tag (gtag.js) - Google Ads: 699508611 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-699508611"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-699508611');
+    </script>
+</body>
+
+</html>
