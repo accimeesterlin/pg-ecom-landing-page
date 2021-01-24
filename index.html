@@ -71,12 +71,21 @@
       // compile the template
       const container = document.querySelector("body");
 
-      // execute the compiled template and print the output to the console
-      const context = {
-        isPageHome: true
+      window.onload = function () {
+        fetch("./courses/list_courses.json")
+          .then((res) => res.json())
+          .then((data) => {
+            // execute the compiled template and print the output to the console
+            // execute the compiled template and print the output to the console
+            const context = {
+              isPageHome: true,
+              list_courses: data
+            };
+            const header = Handlebars.templates.home(context);
+            container.innerHTML = header;
+          })
+          .catch((error) => console.log("Error occurs: ", error));
       };
-      const header = Handlebars.templates.home(context);
-      container.innerHTML = header;
     </script>
     <script>
       window.dataLayer = window.dataLayer || [];
