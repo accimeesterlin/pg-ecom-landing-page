@@ -9,19 +9,14 @@
         </div>
         <div class="row courses-wrap">
             {{#each list_courses}}
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="row courses-element">
                     <div class="courses-block">
                         <img src="{{#unless isPageHome}}..{{/unless}}/{{this.image_url}}" alt="" />
-                        <p><b>Course Title</b>: {{this.course_name}}</p>
-                        <p><b>Course Language</b>: {{this.language}}</p>
+                        <p><b>{{this.course_name}}</b></p>
+                        <p><b>{{this.language}}</b></p>
+                        <p>{{description}}</p>
 
-                        {{#each this.topics}}
-                            <div class="courses-text">
-                                <i class="fas fa-check"></i>
-                                <p>{{this}}</p>
-                            </div>
-                        {{/each}}
                         <div class="add-btn courses-btn_wrap">
                             <a href="{{this.start_url}}" class="btn btn-primary">
                                 Start now

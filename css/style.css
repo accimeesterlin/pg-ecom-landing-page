@@ -785,6 +785,7 @@ header {
 
 
 .courses-block {
+  position: relative;
   background: #fff;
   text-align: center;
   width: 100%;
@@ -800,8 +801,11 @@ header {
 }
 
 .courses-block img {
-  width: 100%;
+  width: 225px;
   margin-bottom: 25px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
 }
 
 .courses-block h6 {

@@ -1,73 +1,49 @@
 [
     {
         "course_name": "Dropshipping Master Class",
+        "description": "Launch and manage a successful e-commerce business, Maintain your e-commerce website, and Attract the right customers with the right strategy",
         "language": "Haitan Creole",
         "image_url": "images/ds-banner.png",
-        "topics": [
-            "Launch and manage a successful e-commerce business",
-            "Maintain your e-commerce website",
-            "Attract the right customers with the right strategy"
-        ],
         "start_url": "https://bit.ly/pg-checkout",
         "curriculum_url": "https://esterling-accime-s-school.teachable.com/p/dropshipping-masterclass"
     },
     {
         "course_name": "Shopify Partner",
+        "description": "Earn money by building Shopify stores for clients, Join a community of Shopify Partners, and Learn the ins and outs of managing a successful Shopify store",
         "language": "Haitan Creole",
         "image_url": "images/shopify-logo.png",
-        "topics": [
-            "Earn money by building Shopify stores for clients",
-            "Join a community of Shopify Partners",
-            "Learn the ins and outs of managing a successful Shopify store"
-        ],
         "start_url": "https://sso.teachable.com/secure/583714/checkout/2783432/shopify-partner",
         "curriculum_url": "https://courses.pgecom.com/p/shopify-partner"
     },
     {
         "course_name": "Facebook Ads",
+        "description": "Launch a Facebook Ads Campaign, Analyze Facebook Ads Data, and Learn how to do retargeting",
         "language": "Haitan Creole",
         "image_url": "images/Facebook Ads.png",
-        "topics": [
-            "Launch a Facebook Ads Campaign",
-            "Analyze Facebook Ads Data",
-            "Learn how to do retargeting"
-        ],
         "start_url": "https://courses.pgecom.com/p/facebook-ads",
         "curriculum_url": "https://sso.teachable.com/secure/583714/checkout/2810126/facebook-ads"
     },
     {
         "course_name": "Mini Dropshipping",
+        "description": "Understand Dropshipping Business Model, Finding trending products, and Find hot products on Facebook",
         "language": "Haitan Creole",
         "image_url": "images/mini-dropshipping.png",
-        "topics": [
-            "Understand Dropshipping Business Model",
-            "Finding trending products",
-            "Find hot products on Facebook"
-        ],
         "start_url": "https://courses.pgecom.com/p/mini-dropshipping",
         "curriculum_url": "https://courses.pgecom.com/p/mini-dropshipping"
     },
     {
-        "course_name": "Dropship with CJ Dropshipping + Shopify",
+        "course_name": "Dropship with CJ Dropshipping",
+        "description": "Start a business or grow an existing one with Shopify, Source & fulfill with high quality products and faster shipping, and Sell trending products with no inventory",
         "language": "English",
         "image_url": "images/shopify_and_cj_dropshipping.png",
-        "topics": [
-            "Start a business or grow an existing one with Shopify",
-            "Source & fulfill with high quality products and faster shipping",
-            "Sell trending products with no inventory"
-        ],
         "start_url": "https://courses.pgecom.com/p/shopify-cj-dropshipping",
         "curriculum_url": "https://courses.pgecom.com/p/shopify-cj-dropshipping"
     },
     {
-        "course_name": "Launch your online business with Shopify",
+        "course_name": "Launch your online business",
+        "description": "Start a business or grow an existing one with Shopify, Turn your retail store into an online store, and Bring your business to Shopify",
         "language": "Haitan Creole",
         "image_url": "images/shopify.png",
-        "topics": [
-            "Start a business or grow an existing one with Shopify",
-            "Turn your retail store into an online store",
-            "Bring your business to Shopify"
-        ],
         "start_url": "https://sso.teachable.com/secure/583714/checkout/2810972/shopify",
         "curriculum_url": "https://courses.pgecom.com/p/shopify"
     }
