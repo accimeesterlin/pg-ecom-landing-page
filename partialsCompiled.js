@@ -58,8 +58,7 @@ Handlebars.partials['courses'] = template({"1":function(container,depth0,helpers
     };
 
   return "            <div class=\"col-md-4\">\n                <div class=\"row courses-element\">\n                    <div class=\"courses-block\">\n                        <img src=\""
-    + ((stack1 = lookupProperty(helpers,"unless").call(alias1,(depth0 != null ? lookupProperty(depth0,"isPageHome") : depth0),{"name":"unless","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":15,"column":34},"end":{"line":15,"column":69}}})) != null ? stack1 : "")
-    + "/"
+    + ((stack1 = lookupProperty(helpers,"unless").call(alias1,(depth0 != null ? lookupProperty(depth0,"isPageHome") : depth0),{"name":"unless","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":15,"column":34},"end":{"line":15,"column":67}}})) != null ? stack1 : "")
     + alias3(alias2((depth0 != null ? lookupProperty(depth0,"image_url") : depth0), depth0))
     + "\" alt=\"\" />\n                        <p><b>"
     + alias3(alias2((depth0 != null ? lookupProperty(depth0,"course_name") : depth0), depth0))
@@ -73,6 +72,8 @@ Handlebars.partials['courses'] = template({"1":function(container,depth0,helpers
     + alias3(alias2((depth0 != null ? lookupProperty(depth0,"curriculum_url") : depth0), depth0))
     + "\"\n                                class=\"btn btn-primary\">\n                                View curriculum\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n";
 },"2":function(container,depth0,helpers,partials,data) {
+    return "";
+},"4":function(container,depth0,helpers,partials,data) {
     return "..";
 },"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -85,7 +86,7 @@ Handlebars.partials['courses'] = template({"1":function(container,depth0,helpers
   return "<section class=\"courses\" id=\"courses\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <div class=\"center-title\">\n                    <h2>Courses</h2>\n                </div>\n            </div>\n        </div>\n        <div class=\"row courses-wrap\">\n"
     + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"list_courses") : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":11,"column":12},"end":{"line":33,"column":21}}})) != null ? stack1 : "")
     + "\n        </div>\n    </div>\n    <div class=\"courses-bg courses-bg_secong\">\n        <img src=\""
-    + ((stack1 = lookupProperty(helpers,"unless").call(alias1,(depth0 != null ? lookupProperty(depth0,"isPageHome") : depth0),{"name":"unless","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":38,"column":18},"end":{"line":38,"column":53}}})) != null ? stack1 : "")
+    + ((stack1 = lookupProperty(helpers,"unless").call(alias1,(depth0 != null ? lookupProperty(depth0,"isPageHome") : depth0),{"name":"unless","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":38,"column":18},"end":{"line":38,"column":53}}})) != null ? stack1 : "")
     + "/images/bg-image4.png\" class=\"img-fluid\" alt=\"#\" />\n    </div>\n</section>";
 },"useData":true});
 Handlebars.partials['ecommerce'] = template({"1":function(container,depth0,helpers,partials,data) {

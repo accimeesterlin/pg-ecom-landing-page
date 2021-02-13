@@ -63,6 +63,7 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=AW-699508611"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="./templatesCompiled.js"></script>
     <script src="./partialsCompiled.js"></script>
@@ -71,20 +72,42 @@
       // compile the template
       const container = document.querySelector("body");
 
+      const client = contentful.createClient({
+        space: "uxvf16b9r1b4",
+        accessToken: "o7uWlKR7V52YcUBvYtlE_9XTtWlHE5TcS1MXdMMDSX8",
+        target_entry_id: 'assets',
+        linking_field: 'fields.image_url.sys.id'
+      });
+
       window.onload = function () {
-        fetch("./courses/list_courses.json")
-          .then((res) => res.json())
-          .then((data) => {
-            // execute the compiled template and print the output to the console
-            // execute the compiled template and print the output to the console
+
+        client
+          .getEntries({
+            content_type: "course",
+          })
+          .then((entries) => {
+            const courses = entries.items.map((course) => {
+              const fields = course.fields;
+              const image = fields.image_url;
+
+              return {
+                ...course.fields,
+                image_url: 'https:' + image.fields.file.url
+              };
+            });
+
             const context = {
               isPageHome: true,
-              list_courses: data
+              list_courses: courses,
             };
             const header = Handlebars.templates.home(context);
             container.innerHTML = header;
+
+
           })
-          .catch((error) => console.log("Error occurs: ", error));
+          .catch((error) => {
+            console.log("Entries: ", error);
+          });
       };
     </script>
     <script>
